@@ -3,7 +3,7 @@ name: Run Rest assured test case
 on:
   push:
     branches:
-      - master
+      - FirstBranche
 
 jobs:
   test:
