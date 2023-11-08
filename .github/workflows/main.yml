@@ -3,7 +3,7 @@ name: Run Rest assured test case
 on:
   push:
     branches:
-      - FirstBranche
+      - master
 
 jobs:
   test:
@@ -28,4 +28,3 @@ jobs:
 
       - name: Build and Test
         run: mvn clean test
-	
