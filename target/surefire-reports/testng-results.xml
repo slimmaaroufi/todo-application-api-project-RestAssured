@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-08T10:24:46 CET" name="Surefire suite" finished-at="2023-11-08T10:24:54 CET" duration-ms="8084">
+    <groups>
+    </groups>
+    <test started-at="2023-11-08T10:24:46 CET" name="Surefire test" finished-at="2023-11-08T10:24:54 CET" duration-ms="8084">
+      <class name="TODO.TestCases.UserTest">
+        <test-method signature="shouldBeAbleToRegistrer()[pri:0, instance:TODO.TestCases.UserTest@a1f72f5]" started-at="2023-11-08T10:24:46 CET" name="shouldBeAbleToRegistrer" description="should Be Able To Registrer" finished-at="2023-11-08T10:24:52 CET" duration-ms="6161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToRegistrer -->
+        <test-method signature="shouldNotBeAbleToLoginIfThePasswordIsNotCorrect()[pri:0, instance:TODO.TestCases.UserTest@a1f72f5]" started-at="2023-11-08T10:24:46 CET" name="shouldNotBeAbleToLoginIfThePasswordIsNotCorrect" description="should Not Be Able To Login If The Password Is Not Correct" finished-at="2023-11-08T10:24:53 CET" duration-ms="6458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleToLoginIfThePasswordIsNotCorrect -->
+        <test-method signature="shouldBeAbleToLogin()[pri:0, instance:TODO.TestCases.UserTest@a1f72f5]" started-at="2023-11-08T10:24:46 CET" name="shouldBeAbleToLogin" description="should Be Able To Login" finished-at="2023-11-08T10:24:53 CET" duration-ms="6503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLogin -->
+        <test-method signature="shouldBeAbleToRegistrerWithTheSameEmail()[pri:0, instance:TODO.TestCases.UserTest@a1f72f5]" started-at="2023-11-08T10:24:46 CET" name="shouldBeAbleToRegistrerWithTheSameEmail" description="should Be Able To Registrer With The Same Email" finished-at="2023-11-08T10:24:53 CET" duration-ms="6509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToRegistrerWithTheSameEmail -->
+      </class> <!-- TODO.TestCases.UserTest -->
+      <class name="TODO.TestCases.TodoTest">
+        <test-method signature="shouldNotBeAbleTodoIfIsCompletedIsMissing()[pri:0, instance:TODO.TestCases.TodoTest@1787f2a0]" started-at="2023-11-08T10:24:46 CET" name="shouldNotBeAbleTodoIfIsCompletedIsMissing" description="should Not Be Able Todo If Is Completed Is Missing" finished-at="2023-11-08T10:24:54 CET" duration-ms="7550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeAbleTodoIfIsCompletedIsMissing -->
+        <test-method signature="shouldBeAbleToAddTodo()[pri:0, instance:TODO.TestCases.TodoTest@1787f2a0]" started-at="2023-11-08T10:24:46 CET" name="shouldBeAbleToAddTodo" description="should Be Able To Add Todo" finished-at="2023-11-08T10:24:54 CET" duration-ms="7554" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToAddTodo -->
+        <test-method signature="shouldBeAbleToGetATodoByID()[pri:0, instance:TODO.TestCases.TodoTest@1787f2a0]" started-at="2023-11-08T10:24:46 CET" name="shouldBeAbleToGetATodoByID" description="should Be Able To Get A Todo By ID" finished-at="2023-11-08T10:24:54 CET" duration-ms="8013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToGetATodoByID -->
+        <test-method signature="shouldBeAbleToDeleteATodo()[pri:0, instance:TODO.TestCases.TodoTest@1787f2a0]" started-at="2023-11-08T10:24:46 CET" name="shouldBeAbleToDeleteATodo" description="should Be Able To Delete A Todo" finished-at="2023-11-08T10:24:54 CET" duration-ms="8015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToDeleteATodo -->
+      </class> <!-- TODO.TestCases.TodoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
